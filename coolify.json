@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "deployment": {
+    "type": "docker-compose",
+    "file": "docker-compose.coolify.yml",
+    "buildArgs": {},
+    "env": {
+      "GOOGLE_SEARCH_API_KEY": "${GOOGLE_SEARCH_API_KEY}",
+      "GOOGLE_SEARCH_CX": "${GOOGLE_SEARCH_CX}",
+      "BACKEND_URL": "${BACKEND_URL}",
+      "FRONTEND_PORT": "7001",
+      "BACKEND_PORT": "7000"
+    }
+  },
+  "autoUpdate": true
+} 
