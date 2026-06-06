@@ -1,0 +1,6 @@
+Overall.pdf
+backend/.venv
+backend.log
+frontend.log
+**/node_modules
+nirf_engineering_2025_17params.csv
